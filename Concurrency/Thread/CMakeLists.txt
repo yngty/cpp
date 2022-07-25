@@ -1,0 +1,7 @@
+add_executable(01_createThread 01_createThread.cpp)
+add_executable(02_threadWithoutJoin 02_threadWithoutJoin.cpp)
+add_executable(03_threadWithJoin 03_threadWithJoin.cpp)
+add_executable(04_threadWithDetach 04_threadWithDetach.cpp)
+add_executable(04_scopedThread 04_scopedThread.cpp)
+add_executable(05_threadArguments 05_threadArguments.cpp)
+add_executable(06_threadMethods 06_threadMethods.cpp)
