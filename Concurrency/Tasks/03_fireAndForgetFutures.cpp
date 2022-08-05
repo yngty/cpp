@@ -7,9 +7,11 @@
 #include <chrono>
 
 using namespace std::chrono_literals;
-int main(int argc, char* argv[]) {std::cout << "\n";
-  std::async(std::launch::async, []{
-        std::this_thread::sleep_for(2s);
+int main(int argc, char* argv[]) {
+
+    std::cout << "begin...\n";
+    std::async(std::launch::async, []{
+        std::this_thread::sleep_for(10s);
         std::cout << "first thread: " << std::this_thread::get_id() << "\n";
   });
 
